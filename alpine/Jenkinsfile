@@ -1,7 +1,9 @@
 pipeline {
      environment {
        IMAGE_NAME = "alpinehellogalaxy"
-       IMAGE_TAG = "latest      
+       IMAGE_TAG = "latest
+       STAGING = "master-jenskin-staging"
+       PRODUCTION = "master-jenskins-production"
      }
      agent none
      stages {
